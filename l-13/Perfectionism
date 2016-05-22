@@ -1,10 +1,8 @@
 def sorting(b):
     c = []
-    item_counter = 0
     for i in range(len(b)):
         for j in range(len(b[i])):
             c.append (b[i][j])
-            item_counter += 1
     item_counter = 0
     c.sort()
     for i in range(len(b)):
