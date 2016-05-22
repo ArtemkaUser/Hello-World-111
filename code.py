@@ -21,8 +21,5 @@ while p<=t:
             a[i][j]=p
             p+=1
     y+=1
-print('')
 for row in a:
-    for elem in row:
-        print(elem, end='\t')
-    print()
+    print('\t'.join([str(elem) for elem in row]))
