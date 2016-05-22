@@ -1,2 +1,26 @@
 a,b,c=int(input()),int(input()),int(input())
 print(min(min(a,b),c),max(min(a,b),c),max(max(a,b),c),sep=' ')
+
+
+
+a=[]
+a.append(int(input()))
+a.append(int(input()))
+a.append(int(input()))
+a.sort()
+print(' '.join([str(elem) for elem in a]))
+
+
+
+def maximum(a,b):
+    if a>=b:
+        return a
+    else:
+        return b
+def minimum(a,b):
+    if a<=b:
+        return a
+    else:
+        return b
+a,b,c=int(input()),int(input()),int(input())
+print(minimum(minimum(a,b),c),maximum(minimum(a,b),c),maximum(maximum(a,b),c),sep=' ')
