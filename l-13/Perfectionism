@@ -3,8 +3,8 @@ def sorting(b):
     for i in range(len(b)):
         for j in range(len(b[i])):
             c.append (b[i][j])
-    item_counter = 0
     c.sort()
+    item_counter = 0
     for i in range(len(b)):
         for j in range(len(a[i])):
             b[i][j] = c[item_counter]
