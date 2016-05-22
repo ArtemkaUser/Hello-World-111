@@ -1,8 +1,9 @@
+#1
 a,b,c=int(input()),int(input()),int(input())
 print(min(min(a,b),c),max(min(a,b),c),max(max(a,b),c),sep=' ')
 
 
-
+#2
 a=[]
 a.append(int(input()))
 a.append(int(input()))
@@ -11,7 +12,7 @@ a.sort()
 print(' '.join([str(elem) for elem in a]))
 
 
-
+#3
 def maximum(a,b):
     if a>=b:
         return a
